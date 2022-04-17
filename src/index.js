@@ -32,10 +32,10 @@
 // const val3 = "const変数を際宣言";
 
 //constで定義したオブジェクトはプロパティの変更が可能
-const val4 = {
-  name: "かずや",
-  age: 50
-};
-val4.name = "KAZUYA";
-val4.addres = "osaka";
-console.log(val4);
+// const val4 = {
+//   name: "かずや",
+//   age: 50
+// };
+// val4.name = "KAZUYA";
+// val4.addres = "osaka";
+// console.log(val4);
