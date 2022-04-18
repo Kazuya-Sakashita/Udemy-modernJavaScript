@@ -106,11 +106,18 @@
 // const massage2 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(massage2);
 
-const myProfile = ['KAZUYA', 28];
+// const myProfile = ['KAZUYA', 28];
 
-const massage3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
-console.log(massage3);
+// const massage3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}です`;
+// console.log(massage3);
 
-const [name, age] = myProfile;
-const massage4 = `名前は${name}です。年齢は${age}歳です。`
-console.log(massage4);
+// const [name, age] = myProfile;
+// const massage4 = `名前は${name}です。年齢は${age}歳です。`
+// console.log(massage4);
+
+/**
+ * デフォルト血、引数など
+ */
+
+const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+sayHello( "KAZUYA");
